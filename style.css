@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #2e48d3 0%,
+    rgba(23, 130, 153, 0.280818) 99.99%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 540px;
+  width: 470px;
+  border-radius: 43px;
+  background: linear-gradient(
+    39.06deg,
+    rgba(130, 159, 232, 0.8) 20.2%,
+    rgba(123, 195, 226, 0.456) 78.76%,
+    rgba(61, 97, 188, 0) 124.3%
+  );
+
+  box-shadow: 0px 8px 4px 0px #00000073;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-box {
+  height: 60px;
+  width: 405px;
+  border-radius: 65px;
+  background: #ffffff;
+  box-shadow: 0px 8px 6px 0px #00000073 inset;
+  margin: 40px auto 20px auto;
+}
+
+input {
+  text-align: end;
+  font-size: 2rem;
+  padding-right: 1rem;
+  overflow: hidden;
+}
+.buttons {
+  display: grid;
+  list-style-type: none;
+  grid-template-areas:
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8"
+    "item9 item10 item11 item12"
+    "item13 item14 item15 item16"
+    "item17 item17 item18 item16";
+  gap: 30px;
+}
+
+button {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 35px;
+  border-radius: 49px;
+  background: linear-gradient(180deg, #201ce3 0%, rgba(30, 81, 213, 0) 100%);
+  box-shadow: 0px 6px 3px 0px #00000073;
+  cursor: pointer;
+}
+
+.item-1 {
+  background: linear-gradient(180deg, #e31c1c 0%, rgba(208, 41, 121, 0) 100%);
+
+  grid-area: item1;
+}
+.item-2 {
+  grid-area: item2;
+}
+.item-3 {
+  grid-area: item3;
+}
+.item-4 {
+  grid-area: item4;
+}
+.item-5 {
+  grid-area: item5;
+}
+.item-6 {
+  grid-area: item6;
+}
+.item-7 {
+  grid-area: item7;
+}
+.item-8 {
+  grid-area: item8;
+}
+.item-9 {
+  grid-area: item9;
+}
+.item-10 {
+  grid-area: item10;
+}
+.item-11 {
+  grid-area: item11;
+}
+.item-12 {
+  grid-area: item12;
+}
+.item-13 {
+  grid-area: item13;
+}
+.item-14 {
+  grid-area: item14;
+}
+.item-15 {
+  grid-area: item15;
+}
+.item-16 {
+  grid-area: item16;
+}
+.item-17 {
+  grid-area: item17;
+}
+
+.item-18 {
+  grid-area: item18;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    162.65deg,
+    #5298bf 9.94%,
+    rgba(44, 40, 223, 0) 88.1%
+  );
+
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 280px);
+  top: 540px;
+  z-index: -1000;
+}
