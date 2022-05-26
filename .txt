@@ -1,0 +1,32 @@
+////////Selecting the ELEMENTS////////////
+1. Select all the buttons 
+2. form the buttons array
+3. Select the operators
+4. Select the input field
+5. assign the strToDisplay to empty string(intial stage)
+6. assign the lastOperator as empty string
+
+
+/////////LOOPING through the array and add EVENT LISTENER////////
+1. use the map() on the arrays of button inorder to go though each btns and add EventListener which perform on click event.
+
+2. when any button is clicked grab the VALUE of the button and put it in a variable
+
+3.use CONDITIONALS for each of the differnt buttons
+a. for "AC" => assign the display to empty string and use display function with empty string  argument
+b.  for "=" => assign the last character (lastChar)  in a variable form display and use condition if operator is last character then slice the last item from display and return the total().
+c.for "C" => slice the last item on  display string .
+d.
+e.for "." => 
+
+4.use the operation on display to show the string on display with addition of the value we got from 2.
+
+5.call the display function
+
+
+
+/////////creating a function display() which will stores the value we get in display //////
+
+
+///////create a function total which will evalute the strings including operators in the display///////
+1. convert the evaluated value to string as we have to use the string methods in event hander which doesnot work with numbers
